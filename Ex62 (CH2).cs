@@ -1,10 +1,8 @@
-﻿using System;
+using System;
 namespace HelloWorld
 {
     class MainClass
     {
-       
-
         public static void Main(string[] args)
         {
             double  a, b, i, j;
