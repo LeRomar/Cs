@@ -6,7 +6,7 @@ namespace HelloWorld
     {
         public static void Main(string[] args)
         {
-            //This algorithm sums two numbers and puts it in a table
+            // This algorithm sums two numbers and puts it in a table
             Console.WriteLine("Enter the dimension of the table: ");
 
             int n = int.Parse(Console.ReadLine());
@@ -15,7 +15,7 @@ namespace HelloWorld
             int[] T = new int[n + 1];
             int i,a;
 
-            //The number must be entered from left to right by digit
+            // The number must be entered from left to right by digit
             Console.WriteLine("Enter the number by digit: ");
 
             for (i=0; i<T1.Length; i++)
@@ -45,12 +45,7 @@ namespace HelloWorld
                     T[n - (i + 1)] += 1;
 
                 }
-
-
-
-
             }
-
             Console.WriteLine("The sum is: ");
             for (i = 0; i <= n; i++)
             {
