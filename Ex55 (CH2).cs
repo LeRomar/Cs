@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace HelloWorld
 {
@@ -6,7 +6,6 @@ namespace HelloWorld
     {
         public static void Main(string[] args)
         {
-          
             double n = 0;
             double e = 0;
             double fac_n = 1;
@@ -16,7 +15,6 @@ namespace HelloWorld
                 n = n + 1;
                 fac_n *= n;
             }
-
             Console.WriteLine("e = {0}", e);
         }
     }
