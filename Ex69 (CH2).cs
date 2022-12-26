@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace HelloWorld
 {
@@ -8,9 +8,6 @@ namespace HelloWorld
         {
             int i;
             double a, b;
-
-
-
             double [] Tab  = { 8.2, 5.1, 12.9, -77.9, 6.4, -3.2, 19.8 };
 
             for (i=0; i<3; i++)
@@ -21,7 +18,6 @@ namespace HelloWorld
                 Tab[i] = b;
             
             }
-
             for (i=0; i<7; i++)
             {
                 Console.WriteLine(Tab[i]);
