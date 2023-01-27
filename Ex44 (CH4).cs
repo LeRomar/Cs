@@ -14,13 +14,13 @@ namespace HelloWorld
             Console.Write("Enter a number: ");
             n = int.Parse(Console.ReadLine());
 
-            while (n > 0)
+            while (n >= 0)
             {
-                for(i=0; i <= n; i++)
+                for(i=0; i < n; i++)
                 {
                     Console.Write(F);
                 }
-                Console.Write(A);
+                Console.WriteLine(A);
                 n--;
             }
 
